@@ -110,13 +110,14 @@ plt.show()
 ![image](https://github.com/user-attachments/assets/e6709694-fad5-45e3-ad4e-c9a54494c56e)
 
 ### 7. HISTPLOT
+```
 plt.figure(figsize=(8, 5))
 sns.histplot(data=tit, x='Pclass', hue='Survived', kde=True, multiple='stack', palette='Set2')
 plt.title("Passenger Class Distribution by Survival")
 plt.xlabel("Passenger Class")
 plt.ylabel("Count")
 plt.show()
-
+```
 ![image](https://github.com/user-attachments/assets/a740c579-a19b-4741-8d92-f49099b3ad0d)
 
 ### 8. KDE PLOT
